@@ -20,4 +20,17 @@
 	// And for that reason pseudocode is a great way to break
 	// down complicated code.
 	// Probably 70% of your time should be committed to
-	// planning and solving your code.  
+	// planning and solving your code. 
+
+//B. STRINGS
+//1. 
+let firstVariable = "Hello World";
+firstVariable = 9; 
+console.log(firstVariable)
+secondVariable = firstVariable;
+secondVariable = "This is great!";
+console.log(secondVariable)
+
+//2.
+const myName = "Cassie Nichols";
+console.log(`Hello my name is ${myName}`);
