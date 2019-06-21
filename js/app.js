@@ -24,13 +24,67 @@
 
 //B. STRINGS
 //1. 
-let firstVariable = "Hello World";
-firstVariable = 9; 
-console.log(firstVariable)
-secondVariable = firstVariable;
-secondVariable = "This is great!";
-console.log(secondVariable)
+// let firstVariable = "Hello World";
+// firstVariable = 9; 
+// console.log(firstVariable)
+// secondVariable = firstVariable;
+// secondVariable = "This is great!";
+// console.log(secondVariable)
 
-//2.
-const myName = "Cassie Nichols";
-console.log(`Hello my name is ${myName}`);
+// //2.
+// const myName = "Cassie Nichols";
+// console.log(`Hello my name is ${myName}`);
+
+//C. BOOLEANS
+  const a = 4;
+  const b = 53;
+  const c = 57;
+  const d = 16;
+  const e = 'Kevin';
+
+  console.log(a < b);
+  console.log(c > d);
+  console.log('Name' === 'Name');
+  // FOR THE NEXT TWO, USE ONLY && OR ||
+  console.log(true || false);
+  console.log(false && false && false && false && false || true);
+  console.log(false === false)
+  console.log(e == 'Kevin');
+  console.log(a !== b || c); // note: a < b < c is NOT CORRECT (and is not a valid JS expression)
+  console.log(a === a || d); // note: the answer is a simple arithmetic equation, not something "weird"
+  console.log(48 == '48');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
