@@ -55,41 +55,21 @@
   // console.log(48 == '48');
 
 //D. THE FARM
-const animal = "chicken";
-if (animal === "cow"){
-	console.log("Mooooo");
-} else {
-	console.log("Hey! You're not a cow!")
-}
+// const animal = "chicken";
+// if (animal === "cow"){
+// 	console.log("Mooooo");
+// } else {
+// 	console.log("Hey! You're not a cow!")
+// }
 
+//E. DRIVERS ED
+const personsAge = 15;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 	if (personsAge > 16){
+		console.log("Here are the keys!");
+	} else {
+		console.log("sorry you're too young")
+		}
 
 
 
