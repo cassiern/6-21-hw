@@ -90,9 +90,25 @@
 
 //B. GET EVEN
 // 1.
-for (let i= 0; i <= 100; i+=2){ 
-	console.log(`${i} <---- is an even number`);
-}
+// for (let i= 0; i <= 100; i+=2){ 
+// 	console.log(`${i} <---- is an even number`);
+// }
+
+// 2.
+//C. HIGH FIVE
+for (let i = 3; i < 100; i++) {
+	if (i % 3 === 0 && i % 5 === 0){
+		console.log(`I found a ${i}, a multiple of both!`);
+	} 
+	else if (i % 3 === 0){
+		console.log(`I found a ${i}! Three is a crowd`);
+	} 
+	else if (i % 5 === 0){
+		console.log(`I found a ${i}. High five!`)
+	} else {
+		console.log('false');
+	}
+} 	
 
 
 
