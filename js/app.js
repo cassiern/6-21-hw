@@ -73,21 +73,26 @@
 
 // 2. A. THE BASICS
 
-1.
-for (let i = 0; i <= 10; i++){
-	console.log(i);
-};
+// 1.
+// for (let i = 0; i <= 10; i++){
+// 	console.log(i);
+// };
 
-2.
-for(let i= 40; i <= 400; i++){
-	console.log(i);
+// 2.
+// for(let i= 40; i <= 400; i++){
+// 	console.log(i);
+// }
+
+// 3.
+// for(let i = 11; i <= 4000; i +=2){
+// 	console.log(i);
+// }
+
+//B. GET EVEN
+// 1.
+for (let i= 0; i <= 100; i+=2){ 
+	console.log(`${i} <---- is an even number`);
 }
-
-3.
-for(let i = 11; i <= 4000; i +=2){
-	console.log(i);
-}
-
 
 
 
