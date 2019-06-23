@@ -211,27 +211,84 @@
 
 // G.
 
-const number1 = 12;
-if (number1 < 5){
-	console.log("Little number.");
-} else if( number1 > 10) {
-	console.log("big number.");
-} else {
-	console.log("monkey");
+// const number1 = 12;
+// if (number1 < 5){
+// 	console.log("Little number.");
+// } else if( number1 > 10) {
+// 	console.log("big number.");
+// } else {
+// 	console.log("monkey");
+// }
+
+// H. 
+/*
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
+console.log("Kristyn is rocking that " + kristynsCloset[2] + " today!");
+newArray = kristynsCloset.slice(0, 6)
+newArray.push("raybans", "marshmallow peeps");
+console.log(newArray);
+
+newArray[5]= "stained knit hat";
+console.log(newArray);
+
+thomsCloset;
+thomsCloset.pop();
+console.log(thomsCloset)
+thomsCloset[5];
+thomsCloset[9];
+console.log(`Thom is looking fierse in a ${thomsCloset[0]}, 
+	${thomsCloset[5]}, and ${thomsCloset[9]}.`)
+
+// NEED TO CONOTINUE WORKING ON ^^^^^^^
+*/
+
+// 4. FUNCTIONS
+// A. printGreetings
+
+// I guess skip this question because it has
+// already been done. 
+
+// B.
+const printCool = (name) => {
+	console.log(name + " is cool.");
+}
+printCool("Captain Reynolds");
+
+// C.
+const calculateCube = (number) => {
+	return number * number * number;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(calculateCube(5))
 
 
 
