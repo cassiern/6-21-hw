@@ -155,7 +155,15 @@
 // 		logging wins and loses in a game. The score could
 //		gets pushed into the array. 
 
+// B.
+const randomThings = [1, 10, "Hello", true];
+//1.
+// To access the first thing we would write:
+randomThings[0];
 
+//2.
+randomThings[2]= "World";
+console.log(randomThings);
 
 
 
