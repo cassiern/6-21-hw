@@ -96,24 +96,35 @@
 
 // 2.
 //C. HIGH FIVE
-for (let i = 3; i < 100; i++) {
-	if (i % 3 === 0 && i % 5 === 0){
-		console.log(`I found a ${i}, a multiple of both!`);
-	} 
-	else if (i % 3 === 0){
-		console.log(`I found a ${i}! Three is a crowd`);
-	} 
-	else if (i % 5 === 0){
-		console.log(`I found a ${i}. High five!`)
-	} else {
-		console.log('false');
-	}
-} 	
+// for (let i = 3; i < 100; i++) {
+// 	if (i % 3 === 0 && i % 5 === 0){
+// 		console.log(`I found a ${i}, a multiple of both!`);
+// 	} 
+// 	else if (i % 3 === 0){
+// 		console.log(`I found a ${i}! Three is a crowd`);
+// 	} 
+// 	else if (i % 5 === 0){
+// 		console.log(`I found a ${i}. High five!`)
+// 	} else {
+// 		console.log('false');
+// 	}
+// } 	
 
+//D. SAVINGS ACCOUNT
+//loop through each number up to 10.
+//add each number it loops through to a variable
 
+let bank_account = 0;
+for (let i = 0; i <= 10; i++){
+	bank_account += i
+}
+console.log(bank_account);
 
-
-
+let bank_account2 = 0;
+for (let i = 0; i <= 100; i++){
+	bank_account2 += (i * 2);
+}
+console.log(bank_account2)
 
 
 
