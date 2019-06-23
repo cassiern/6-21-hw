@@ -221,7 +221,7 @@
 // }
 
 // H. 
-/*
+
 const kristynsCloset = [
   "left shoe",
   "cowboy boots",
@@ -252,24 +252,27 @@ const thomsCloset = [
     "raybans"
   ]
 ];
-console.log("Kristyn is rocking that " + kristynsCloset[2] + " today!");
-newArray = kristynsCloset.slice(0, 6)
-newArray.push("raybans", "marshmallow peeps");
-console.log(newArray);
+// console.log("Kristyn is rocking that " + kristynsCloset[2] + " today!");
+// newArray = kristynsCloset.slice(0, 6)
+// newArray.push("raybans", "marshmallow peeps");
+// console.log(newArray);
 
-newArray[5]= "stained knit hat";
-console.log(newArray);
+// newArray[5]= "stained knit hat";
+// console.log(newArray);
 
-thomsCloset;
-thomsCloset.pop();
-console.log(thomsCloset)
-thomsCloset[5];
-thomsCloset[9];
-console.log(`Thom is looking fierse in a ${thomsCloset[0]}, 
-	${thomsCloset[5]}, and ${thomsCloset[9]}.`)
+// thomsCloset;
+// thomsCloset.pop();
+// console.log(thomsCloset)
+const thomShirt = thomsCloset[0][0];
+const thomsPants = thomsCloset[1][1];
+const thomsExtra = thomsCloset[2][2];
 
-// NEED TO CONOTINUE WORKING ON ^^^^^^^
-*/
+console.log(`Thom is looking fierse in a ${thomShirt}, 
+	${thomsPants}, and ${thomsExtra}.`)
+thomsCloset[1][2] = "Footie Pajamas";
+console.log(thomsCloset);
+
+
 
 // 4. FUNCTIONS
 // A. printGreetings
@@ -278,17 +281,17 @@ console.log(`Thom is looking fierse in a ${thomsCloset[0]},
 // already been done. 
 
 // B.
-const printCool = (name) => {
-	console.log(name + " is cool.");
-}
-printCool("Captain Reynolds");
+// const printCool = (name) => {
+// 	console.log(name + " is cool.");
+// }
+// printCool("Captain Reynolds");
 
-// C.
-const calculateCube = (number) => {
-	return number * number * number;
-}
+// // C.
+// const calculateCube = (number) => {
+// 	return number * number * number;
+// }
 
-console.log(calculateCube(5))
+// console.log(calculateCube(5))
 
 
 
