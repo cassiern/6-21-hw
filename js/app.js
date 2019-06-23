@@ -180,25 +180,34 @@
 // console.log(ourClass)
 
 // E.
-const myArray = [5, 10, 500, 20]
+// const myArray = [5, 10, 500, 20]
 
-myArray.push("Egon", "Yellow");
-console.log(myArray);
-myArray.splice(0, 5);
-console.log(myArray);
-myArray.unshift("Bob Marley")
-console.log(myArray);
-myArray.pop();
-console.log(myArray);
-myArray.reverse();
-console.log(myArray);
+// myArray.push("Egon", "Yellow");
+// console.log(myArray);
+// myArray.splice(0, 5);
+// console.log(myArray);
+// myArray.unshift("Bob Marley")
+// console.log(myArray);
+// myArray.pop();
+// console.log(myArray);
+// myArray.reverse();
+// console.log(myArray);
 // 5. 
 //The .reverse() didn't change anything in the array. 
 // Although, I only have one itm in my array, the string.
 // If I had two items, it would've swapped them.
 
 
+// F.
+const number = 102;
 
+	if (number < 100){
+		console.log("little number");
+	} else if (number => 100){
+		console.log("big number");
+	} else {
+		false;
+	}
 
 
 
