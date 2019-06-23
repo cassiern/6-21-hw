@@ -114,19 +114,39 @@
 //loop through each number up to 10.
 //add each number it loops through to a variable
 
-let bank_account = 0;
-for (let i = 0; i <= 10; i++){
-	bank_account += i
+// let bank_account = 0;
+// for (let i = 0; i <= 10; i++){
+// 	bank_account += i
+// }
+// console.log(bank_account);
+
+// let bank_account2 = 0;
+// for (let i = 0; i <= 100; i++){
+// 	bank_account2 += (i * 2);
+// }
+// console.log(bank_account2)
+
+//E. MULTIPLES OF 3 & 5
+let sumOfNaturalNumbers = 0;
+
+for (let i = 0; i <= 1000; i++){
+	if (i % 3 === 0 && i % 5 === 0){
+		sumOfNaturalNumbers += i;
+	} else if (i % 3 === 0){
+		sumOfNaturalNumbers += i;
+		
+	} else if (i % 5 === 0){
+		sumOfNaturalNumbers += i;
+		
+	} else {
+		console.log('false');
+	}
 }
-console.log(bank_account);
+console.log(sumOfNaturalNumbers);
 
-let bank_account2 = 0;
-for (let i = 0; i <= 100; i++){
-	bank_account2 += (i * 2);
-}
-console.log(bank_account2)
-
-
+//I read through the whole question and realize
+// we didn't have to do this problem again. 
+// I just liked the practice. :)
 
 
 
