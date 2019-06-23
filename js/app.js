@@ -294,36 +294,81 @@
 
 // D.
 
-const isVowel = (letter) => {
-	if (letter === "a"|| letter === "e"|| letter === "i"||
-		letter === "o"|| letter ==="u"){
-		console.log("It's a vowel!");
-	} else {
-		console.log("It's a consonant.");
-	}
+// const isVowel = (letter) => {
+// 	if (letter === "a"|| letter === "e"|| letter === "i"||
+// 		letter === "o"|| letter ==="u"){
+// 		console.log("It's a vowel!");
+// 	} else {
+// 		console.log("It's a consonant.");
+// 	}
+// }
+// isVowel("e");
+
+////////////////////////////////////////////////////
+// E.
+// it first needs to split up the word given
+// then convert each letter into a number (array index?)
+// then add up each letter of said word
+// and return the number it added up
+
+// const getTwoLengths = (str1) => {
+// 	for (i = 0; i < str1.length; i++){
+// 		numberOfLetters = str1.split('str1');
+// 		finalNumber = numberOfLetters.reduce();
+// 	}
+// 		return finalNumber;
+// }
+
+// console.log(getTwoLengths('Hello'));
+
+// STILL NEED TTO FINISH ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+// F.
+// const getMultipleLengths = (arrOfStrings) => {
+
+// }
+
+// SIMILAR TO E. COMIN' BACK FOR IT. ^^^^^^^^^^^^^^^^^
+
+// G.
+// const maxOfThree = (num1, num2, num3) => {
+// 	if (num1 < num2){
+// 			return num2;
+// 		} else if (num2 < num3){
+// 			return num3;
+// 		} else if (num3 < num1){
+// 			return num1;
+// 		} else if (num1 === num2 && num2 === num3){
+// 			return num1;
+// 		} else if (num1 === num2){
+// 			return num1;
+// 		} else if (num2 === num3){
+// 			return num2;
+// 		} else if (num3 === num1){
+// 			return num3;
+// 		} else {
+// 			return false;
+// 		}
+// }
+// // There's probably a great loop answer to this...?
+// // It's way too many if/else's. 
+// console.log(maxOfThree(3, 3, 12));
+
+// // H. 
+// const printLongestWord = () => {
+
+// }
+
+//SIMILAR TO E AND F. GOTTA GET THAT SHTUFF FIGURED OUT.
+
+// I.
+
+const transmogrify = (thing1, thing2, thing3) => {
+	const answer = Math.pow((thing1 * thing2), thing3);
+		return answer;
 }
-isVowel("e");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(transmogrify(5, 3, 2));
 
 
 
