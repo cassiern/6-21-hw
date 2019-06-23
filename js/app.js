@@ -199,16 +199,26 @@
 
 
 // F.
-const number = 102;
+// const number = 102;
 
-	if (number < 100){
-		console.log("little number");
-	} else if (number => 100){
-		console.log("big number");
-	} else {
-		false;
-	}
+// 	if (number < 100){
+// 		console.log("little number");
+// 	} else if (number => 100){
+// 		console.log("big number");
+// 	} else {
+// 		false;
+//	}
 
+// G.
+
+const number1 = 12;
+if (number1 < 5){
+	console.log("Little number.");
+} else if( number1 > 10) {
+	console.log("big number.");
+} else {
+	console.log("monkey");
+}
 
 
 
