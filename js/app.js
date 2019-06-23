@@ -144,7 +144,7 @@
 // }
 // console.log(sumOfNaturalNumbers);
 
-//I read through the whole question and realize
+// I read through the whole question and realize
 // we didn't have to do this problem again. 
 // I just liked the practice. :)
 
@@ -156,15 +156,28 @@
 //		gets pushed into the array. 
 
 // B.
-const randomThings = [1, 10, "Hello", true];
-//1.
-// To access the first thing we would write:
-randomThings[0];
+// const quotes = ["hey there", "how's it going?", "Got plans today?"];
 
-//2.
-randomThings[2]= "World";
-console.log(randomThings);
 
+// C.
+// const randomThings = [1, 10, "Hello", true];
+// //1.
+// // To access the first thing we would write:
+// randomThings[0];
+
+// //2.
+// randomThings[2]= "World";
+// console.log(randomThings);
+
+// D.
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+// 1.
+ourClass[2];
+// 2.
+ourClass[4] = "Octocat";
+// 3. 
+ourClass.push("Cloud City");
+console.log(ourClass)
 
 
 
