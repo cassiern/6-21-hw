@@ -126,29 +126,34 @@
 // }
 // console.log(bank_account2)
 
-//E. MULTIPLES OF 3 & 5
-let sumOfNaturalNumbers = 0;
+// //E. MULTIPLES OF 3 & 5
+// let sumOfNaturalNumbers = 0;
 
-for (let i = 0; i <= 1000; i++){
-	if (i % 3 === 0 && i % 5 === 0){
-		sumOfNaturalNumbers += i;
-	} else if (i % 3 === 0){
-		sumOfNaturalNumbers += i;
+// for (let i = 0; i <= 1000; i++){
+// 	if (i % 3 === 0 && i % 5 === 0){
+// 		sumOfNaturalNumbers += i;
+// 	} else if (i % 3 === 0){
+// 		sumOfNaturalNumbers += i;
 		
-	} else if (i % 5 === 0){
-		sumOfNaturalNumbers += i;
+// 	} else if (i % 5 === 0){
+// 		sumOfNaturalNumbers += i;
 		
-	} else {
-		console.log('false');
-	}
-}
-console.log(sumOfNaturalNumbers);
+// 	} else {
+// 		console.log('false');
+// 	}
+// }
+// console.log(sumOfNaturalNumbers);
 
 //I read through the whole question and realize
 // we didn't have to do this problem again. 
 // I just liked the practice. :)
 
-
+// 3) A.
+// 1. The things in an array are called indices (index).
+// 2. Arrays do not garentee that the indices will be in order.
+// 3. A real thing you could model with an array would be
+// 		logging wins and loses in a game. The score could
+//		gets pushed into the array. 
 
 
 
