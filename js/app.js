@@ -222,55 +222,55 @@
 
 // H. 
 
-const kristynsCloset = [
-  "left shoe",
-  "cowboy boots",
-  "right sock",
-  "GA hoodie",
-  "green pants",
-  "yellow knit hat",
-  "marshmallow peeps"
-];
+// const kristynsCloset = [
+//   "left shoe",
+//   "cowboy boots",
+//   "right sock",
+//   "GA hoodie",
+//   "green pants",
+//   "yellow knit hat",
+//   "marshmallow peeps"
+// ];
 
-// Thom's closet is more complicated. Check out this nested data structure!!
-const thomsCloset = [
-  [
-    // These are Thom's shirts
-    "grey button-up",
-    "dark grey button-up",
-    "light blue button-up",
-    "blue button-up",
-  ],[
-    // These are Thom's pants
-    "grey jeans",
-    "jeans",
-    "PJs"
-  ],[
-    // Thom's accessories
-    "wool mittens",
-    "wool scarf",
-    "raybans"
-  ]
-];
-// console.log("Kristyn is rocking that " + kristynsCloset[2] + " today!");
-// newArray = kristynsCloset.slice(0, 6)
-// newArray.push("raybans", "marshmallow peeps");
-// console.log(newArray);
+// // Thom's closet is more complicated. Check out this nested data structure!!
+// const thomsCloset = [
+//   [
+//     // These are Thom's shirts
+//     "grey button-up",
+//     "dark grey button-up",
+//     "light blue button-up",
+//     "blue button-up",
+//   ],[
+//     // These are Thom's pants
+//     "grey jeans",
+//     "jeans",
+//     "PJs"
+//   ],[
+//     // Thom's accessories
+//     "wool mittens",
+//     "wool scarf",
+//     "raybans"
+//   ]
+// ];
+// // console.log("Kristyn is rocking that " + kristynsCloset[2] + " today!");
+// // newArray = kristynsCloset.slice(0, 6)
+// // newArray.push("raybans", "marshmallow peeps");
+// // console.log(newArray);
 
-// newArray[5]= "stained knit hat";
-// console.log(newArray);
+// // newArray[5]= "stained knit hat";
+// // console.log(newArray);
 
-// thomsCloset;
-// thomsCloset.pop();
-// console.log(thomsCloset)
-const thomShirt = thomsCloset[0][0];
-const thomsPants = thomsCloset[1][1];
-const thomsExtra = thomsCloset[2][2];
+// // thomsCloset;
+// // thomsCloset.pop();
+// // console.log(thomsCloset)
+// const thomShirt = thomsCloset[0][0];
+// const thomsPants = thomsCloset[1][1];
+// const thomsExtra = thomsCloset[2][2];
 
-console.log(`Thom is looking fierse in a ${thomShirt}, 
-	${thomsPants}, and ${thomsExtra}.`)
-thomsCloset[1][2] = "Footie Pajamas";
-console.log(thomsCloset);
+// console.log(`Thom is looking fierse in a ${thomShirt}, 
+// 	${thomsPants}, and ${thomsExtra}.`)
+// thomsCloset[1][2] = "Footie Pajamas";
+// console.log(thomsCloset);
 
 
 
@@ -290,8 +290,65 @@ console.log(thomsCloset);
 // const calculateCube = (number) => {
 // 	return number * number * number;
 // }
-
 // console.log(calculateCube(5))
+
+// D.
+
+const isVowel = (letter) => {
+	if (letter === "a"|| letter === "e"|| letter === "i"||
+		letter === "o"|| letter ==="u"){
+		console.log("It's a vowel!");
+	} else {
+		console.log("It's a consonant.");
+	}
+}
+isVowel("e");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
