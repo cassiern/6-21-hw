@@ -417,9 +417,10 @@ const user = {
 
 user.email = "newUser@gmail.com";
 user.age = user.age +=1;
-user.location = "Washington, D.C."
+user.location = "Washington, D.C.";
+user.purchase.push("carbohydrates", "peace of mind", "Merino jodhpurs");
 
-console.log(user);
+console.log(user.purchase[2]);
 
 
 
