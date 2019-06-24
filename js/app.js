@@ -415,6 +415,10 @@ const user = {
 	purchase: []
 }
 
+user.email = "newUser@gmail.com";
+user.age = user.age +=1;
+
+console.log(user);
 
 
 
