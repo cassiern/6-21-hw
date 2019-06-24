@@ -304,31 +304,30 @@
 // }
 // isVowel("e");
 
-////////////////////////////////////////////////////
 // E.
 // it first needs to split up the word given
 // then convert each letter into a number (array index?)
 // then add up each letter of said word
 // and return the number it added up
 
-// const getTwoLengths = (str1) => {
-// 	for (i = 0; i < str1.length; i++){
-// 		numberOfLetters = str1.split('str1');
-// 		finalNumber = numberOfLetters.reduce();
+// thisISTheRealArray = [];
+
+// const getTwoLengths = (arr) => {
+
+// 	for (i = 0; i < arr.length; i++){
+// 		numberOfLetters = arr;
+// 		newArray = numberOfLetters.split('');
+// 		thisISTheRealArray = newArray;
 // 	}
-// 		return finalNumber;
+// 		return newArray;
 // }
-
-// console.log(getTwoLengths('Hello'));
-
-// STILL NEED TTO FINISH ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+// console.log(getTwoLengths("hank", "hi"));
 
 // F.
-// const getMultipleLengths = (arrOfStrings) => {
+ //const getMultipleLengths = (arrOfStrings) => {
 
-// }
+ //}
 
-// SIMILAR TO E. COMIN' BACK FOR IT. ^^^^^^^^^^^^^^^^^
 
 // G.
 // const maxOfThree = (num1, num2, num3) => {
@@ -354,10 +353,20 @@
 // // It's way too many if/else's. 
 // console.log(maxOfThree(3, 3, 12));
 
-// // H. 
-// const printLongestWord = () => {
-
-// }
+// H. 
+ const printLongestWord = (strings) => {
+ 	const larestWord = strings.split(' ');
+ 	let longest = 0;
+ 	let word = 0;
+ 	for (let i = 0; i < strings.length; i++){
+ 		if (longest < strings.length) {
+ 			longeth = strings[i].length;
+ 			word = strings[i];
+ 		}
+ 	}
+ 	return (word);
+ }
+ console.log(printLongestWord("Hello World"))
 
 //SIMILAR TO E AND F. GOTTA GET THAT SHTUFF FIGURED OUT.
 
@@ -371,7 +380,7 @@
 // console.log(transmogrify(5, 3, 2));
 
 //////////////////////////////
-// NEED TO DO E, F, H, J and K. //
+// NEED TO DO F, H, J, K and Objects: J. //
 ////////////////////////////
 
 // J.
@@ -408,42 +417,46 @@ console.log(getRandomElement("hey there", "how's it going?", "Got plans today?",
 
 // OBJECTS
 // A.
-const user = {
-	name: "Bartha Mellow",
-	email: "superOldUser@yahoo.com",
-	age: 87,
-	purchase: []
-}
+// const user = {
+// 	name: "Bartha Mellow",
+// 	email: "superOldUser@yahoo.com",
+// 	age: 87,
+// 	purchase: []
+// }
 
-user.email = "newUser@gmail.com";
-user.age = user.age +=1;
-user.location = "Washington, D.C.";
-user.purchase.push("carbohydrates", "peace of mind", "Merino jodhpurs");
-//console.log(user.purchase[2]);
-user.friend = {
-	name: "Billy Jean",
-	age: 85,
-	location: "Jamica",
-	purchase: []
-}
-user.friend.age = 55;
-user.friend.purchase.push("The One Ring", "A latte.");
-//console.log(user.friend.purchase[1]);
+// user.email = "newUser@gmail.com";
+// user.age = user.age +=1;
+// user.location = "Washington, D.C.";
+// user.purchase.push("carbohydrates", "peace of mind", "Merino jodhpurs");
+// //console.log(user.purchase[2]);
+// user.friend = {
+// 	name: "Billy Jean",
+// 	age: 85,
+// 	location: "Jamica",
+// 	purchase: []
+// }
+// user.friend.age = 55;
+// user.friend.purchase.push("The One Ring", "A latte.");
+// //console.log(user.friend.purchase[1]);
 
-// // F. 
-// for (let i = 0; i <= user.purchase.length; i++){
-// 		console.log(user.purchase[i]);
-// 		i++;
-// 	}
+// // // F. 
+// // for (let i = 0; i <= user.purchase.length; i++){
+// // 		console.log(user.purchase[i]);
+// // 		i++;
+// // 	}
 
-//console.log(user.purchase[i])
+// //console.log(user.purchase[i])
 
-for (let i = 0; i < user.friend.purchase.length; i++){
-	console.log(user.friend.purchase[i]);
+// for (let i = 0; i < user.friend.purchase.length; i++){
+// 	console.log(user.friend.purchase[i]);
 	
-}
+// }
 //console.log(user.friend.purchase[i]);
 
-
+// const updateUser = (age, name) => {
+// 	let newAge = age += 1;
+// 	let newName = name.toUpperCase()
+// };
+// console.log(updateUser(20, 'cassie'))
 
 
