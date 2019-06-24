@@ -363,29 +363,57 @@
 
 // I.
 
-const transmogrify = (thing1, thing2, thing3) => {
-	const answer = Math.pow((thing1 * thing2), thing3);
-		return answer;
+// const transmogrify = (thing1, thing2, thing3) => {
+// 	const answer = Math.pow((thing1 * thing2), thing3);
+// 		return answer;
+// }
+
+// console.log(transmogrify(5, 3, 2));
+
+//////////////////////////////
+// NEED TO DO E, F, H, J and K. //
+////////////////////////////
+
+// J.
+// const array1 = ["hello", "world"];
+// const reverseWordOrder = (string) => {
+
+// }
+
+// K.
+// const mathProblem = (min, max) => {
+// 	min = Math.ceil(min);
+// 	max = Math.floor(max);
+// 	return Math.floor(Math.random() * (max - min)) + min;
+// }
+
+
+// console.log(mathProblem(10, 100))
+/*
+const quotes = ["hey there", 
+		"how's it going?", 
+		"Got plans today?"];
+quotes.push("It's raining cats and dogs!", "It's five o'clock somewhere.")
+
+console.log(quotes)
+
+const getRandomElement = (arr) => {
+	for (let i = 0; i < arr.length; i++){
+		randomArray = arr[Math.floor(arr.length * Math.random())];
+	}
 }
 
-console.log(transmogrify(5, 3, 2));
+console.log(getRandomElement("hey there", "how's it going?", "Got plans today?", "It's raining cats and dogs!", "It's five o'clock somewhere."));
+*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// OBJECTS
+// A.
+const user = {
+	name: "Bartha Mellow",
+	email: "superOldUser@yahoo.com",
+	age: 87,
+	purchase: []
+}
 
 
 
