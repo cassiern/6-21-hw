@@ -417,6 +417,7 @@ const user = {
 
 user.email = "newUser@gmail.com";
 user.age = user.age +=1;
+user.location = "Washington, D.C."
 
 console.log(user);
 
