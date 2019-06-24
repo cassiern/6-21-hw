@@ -419,11 +419,16 @@ user.email = "newUser@gmail.com";
 user.age = user.age +=1;
 user.location = "Washington, D.C.";
 user.purchase.push("carbohydrates", "peace of mind", "Merino jodhpurs");
-
-console.log(user.purchase[2]);
-
-
-
+//console.log(user.purchase[2]);
+user.friend = {
+	name: "Billy Jean",
+	age: 85,
+	location: "Jamica",
+	purchase: []
+}
+user.friend.age = 55;
+user.friend.purchase.push("The One Ring", "A latte.");
+console.log(user.friend.purchase[1]);
 
 
 
