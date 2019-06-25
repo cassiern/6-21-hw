@@ -277,7 +277,7 @@ console.log(thomsCloset);
 // 4. FUNCTIONS
 // A. printGreetings
 
-// I guess skip this question because it has
+// Skip this question because it has
 // already been done. 
 
 // B.
